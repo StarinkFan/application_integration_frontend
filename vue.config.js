@@ -9,8 +9,8 @@ module.exports = {
     port: 80,
     disableHostCheck: true,
     proxy: {
-      "/api": {
-        target: "localhost:3000/",
+      "/one": {
+        target: "http://localhost:8080/",
         ws: true,
         changeOrigin: true
       }

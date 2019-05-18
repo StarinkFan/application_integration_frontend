@@ -1,6 +1,6 @@
 import axios from 'axios';
 axios.defaults.timeout = 10000; //设置请求时间
-axios.defaults.baseURL = baseUrl;//设置默认接口地址
+axios.defaults.baseURL = "one";//设置默认接口地址
 /**
  * 封装get方法
  * @param url

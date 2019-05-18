@@ -65,6 +65,11 @@
                     {date: "121", name:"234", address:"1212"}
                 ]
             }
+        },
+        mounted(){
+            this.$get("/getAirTickets").then((res)=>{
+                console.log(res);
+            })
         }
     }
 </script>
