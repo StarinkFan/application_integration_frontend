@@ -69,6 +69,7 @@
         mounted(){
             this.$get("/getAirTickets").then((res)=>{
                 console.log(res);
+                this.tickets=res;
             })
         }
     }
