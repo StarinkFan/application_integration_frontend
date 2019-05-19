@@ -6,10 +6,11 @@
                 :data="tickets"
                 border
                 stripe
-                style="max-width: 90%">
+                style="max-width: 90%;margin-bottom: 30px">
             <el-table-column
                     prop="flightNumber"
-                    label="航班号">
+                    label="航班号"
+                    width="120">
             </el-table-column>
             <el-table-column
                     prop="company"
@@ -18,8 +19,7 @@
             </el-table-column>
             <el-table-column
                     prop="departureAirport"
-                    label="起飞机场"
-                    width="120">
+                    label="起飞机场">
             </el-table-column>
             <el-table-column
                     prop="departureTime"
@@ -28,8 +28,7 @@
             </el-table-column>
             <el-table-column
                     prop="arrivalAirport"
-                    label="到达机场"
-                    width="120">
+                    label="到达机场">
             </el-table-column>
             <el-table-column
                     prop="arrivalTime"
@@ -37,17 +36,17 @@
                     width="120">
             </el-table-column>
             <el-table-column
-                    prop="qPrice"
+                    prop="qprice"
                     label="去哪儿票价"
                     width="120">
             </el-table-column>
             <el-table-column
-                    prop="tPrice"
+                    prop="tprice"
                     label="途牛票价"
                     width="120">
             </el-table-column>
             <el-table-column
-                    prop="xPrice"
+                    prop="xprice"
                     label="携程票价"
                     width="120">
             </el-table-column>
